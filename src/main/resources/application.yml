@@ -1,0 +1,12 @@
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
+server:
+  port: 8083
+  servlet:
+    context-path: /techgeeknext
+    session:
+      cookie:
+        path: /techgeeknext
